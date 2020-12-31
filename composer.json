@@ -1,14 +1,45 @@
 {
-    "name": "mamadou-aly-sy/sillicon",
-    "description": "A simple php framework for building web application",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "MamcoSy",
-            "email": "mamco.aly.sy@gmail.com"
-        }
-    ],
-    "minimum-stability": "alpha",
-    "require": {}
+  "name": "mamadou-aly-sy/sillicon",
+  "description": "A simple php framework for building web application",
+  "readme": "",
+  "time": "",
+  "keywords": [
+    "php",
+    "php-framework",
+    "framework",
+    "Sillicon"
+  ],
+  "support": {
+    "issues": "https://github.com/MamcoSy/Sllicon/issues",
+    "wiki": "https://github.com/MamcoSy/Sllicon/wiki",
+    "source": "https://github.com/MamcoSy/Sllicon"
+  },
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MamcoSy",
+      "email": "mamco.aly.sy@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "alpha",
+  "require": {
+    "php": "^7.4.3",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-mbstring": "*",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sillicon\\": "src/Sillicon/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Sillicon\\Tests\\": "tests/"
+    }
+  }
 }
